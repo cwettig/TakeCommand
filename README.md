@@ -9,3 +9,9 @@ The software has been developed by [JP Software](https://jpsoft.com), a privatel
 Their very first product (named *4DOS*) was developed in 1989 as a replacement for MS-DOS's `command.com`.
 
 TakeCommand is closed and *"Windows-only"* software but I have been using their products since the early 1990's.
+
+---
+
+## Screenshot
+
+![TakeCommand](https://github.com/user-attachments/assets/517fc6f2-005b-46d4-88fb-2dc63350ffc2)
