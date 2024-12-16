@@ -1,0 +1,25 @@
+@echo off
+
+SET ANSIWin10=YES
+SET titleprompt=$P$g
+SET colordir=exe: bright red; abap java js py rs: green; ini log: yellow; dirs: bright white; rdonly: bright blue; system: bright yellow
+
+SET var_p_nesting_blue=$e[34;1m$c$z$f
+SET var_p_hostuser_green=$e[37;1m[$e[32;1m$u@$@
+SET var_p_memory_white=$e[35;1m(%@dosmem[G]G)
+SET var_p_datetime_white=$e[37;1m$j$b$t
+SET var_p_currentpath_red=$e[31;1m$P$e[30;0m]
+
+PROMPT %var_p_nesting_blue %var_p_hostuser_green %var_p_memory_white %var_p_datetime_white %var_p_currentpath_red
+
+ALIAS ll=dir /a /hqt
+ALIAS cat=type
+ALIAS editor=edit
+ALIAS reindex=CDD /s C:\
+ALIAS clear=CLS /c
+ALIAS p=LIST /n /u
+ALIAS less=p
+ALIAS @@ctrl-L=clear
+ALIAS man=help
+
+CDD C:\
